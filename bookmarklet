@@ -1,5 +1,6 @@
 document.write("<center><h1>Welcome back...</h1><hr>");
 document.write("<p>What do you want to do today?</p>");
+document.write("a<center>")
 let buzz = document.createElement("button");
 buzz.innerHTML = "Buzz";
 buzz.addEventListener("click", function () {
@@ -7,7 +8,6 @@ buzz.addEventListener("click", function () {
   window.open("https://iteea-ga-dekalb-dhhs.agilixbuzz.com/");
 });
 document.body.appendChild(buzz);
-
 let onS = document.createElement("button");
 onS.innerHTML = "OnShape";
 onS.addEventListener("click", function () {
@@ -16,14 +16,6 @@ onS.addEventListener("click", function () {
 });
 document.body.appendChild(onS);
 
-let ill = document.createElement("button");
-ill.innerHTML = "illuminate";
-ill.addEventListener("click", function () {
-  alert("Opening illuminate in a new tab");
-  window.open("https://dekalb.illuminatehc.com/login");
-});
-document.body.appendChild(ill);
-
 let gmm = document.createElement("button");
 gmm.innerHTML = "GetMoreMath";
 gmm.addEventListener("click", function () {
@@ -31,6 +23,23 @@ gmm.addEventListener("click", function () {
   window.open("https://gmm.getmoremath.com/student.html");
 });
 document.body.appendChild(gmm);
+
+let dm = document.createElement("button");
+dm.innerHTML = "DeltaMath";
+dm.addEventListener("click", function () {
+  alert("Opening DeltaMath in a new tab");
+  window.open("https://www.deltamath.com/sign-in/?redirectUrl=/student");
+});
+document.body.appendChild(dm);
+
+
+let ill = document.createElement("button");
+ill.innerHTML = "illuminate";
+ill.addEventListener("click", function () {
+  alert("Opening illuminate in a new tab");
+  window.open("https://dekalb.illuminatehc.com/login");
+});
+document.body.appendChild(ill);
 
 let cle = document.createElement("button");
 cle.innerHTML = "clever";
@@ -64,4 +73,6 @@ cle.style.backgroundColor = bu;
 cle.style.color = ba;
 can.style.backgroundColor = bu;
 can.style.color = ba;
+dm.style.backgroundColor = bu;
+dm.style.color = ba;
 document.body.style.backgroundColor = "#39657C";
