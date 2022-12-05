@@ -1,0 +1,74 @@
+window.resizeTo()
+document.write("<center><h1>Welcome back...</h1><hr>");
+document.write("<p>What do you want to do today?</p>");
+let buzz = document.createElement("button");
+buzz.innerHTML = "Buzz";
+buzz.addEventListener("click", function () {
+  alert("Opening buzz in a new tab");
+  window.open("https://iteea-ga-dekalb-dhhs.agilixbuzz.com/");
+});
+document.body.appendChild(buzz);
+
+let onS = document.createElement("button");
+onS.innerHTML = "OnShape";
+onS.addEventListener("click", function () {
+  alert("Opening OnShape in a new tab");
+  window.open("https://dekalbschoolsga.onshape.com/");
+});
+document.body.appendChild(onS);
+
+let ill = document.createElement("button");
+ill.innerHTML = "illuminate";
+ill.addEventListener("click", function () {
+  alert("Opening illuminate in a new tab");
+  window.open("https://dekalb.illuminatehc.com/login");
+});
+document.body.appendChild(ill);
+
+let gmm = document.createElement("button");
+gmm.innerHTML = "GetMoreMath";
+gmm.addEventListener("click", function () {
+  alert("Opening GetMoreMath in a new tab");
+  window.open("https://gmm.getmoremath.com/student.html");
+});
+document.body.appendChild(gmm);
+
+let cle = document.createElement("button");
+cle.innerHTML = "clever";
+cle.addEventListener("click", function () {
+  alert("Opening Clever in a new tab");
+  window.open("https://tinyurl.com/y4rnv378");
+});
+
+document.body.appendChild(cle);
+
+let can = document.createElement("button");
+can.innerHTML = "Canvas";
+can.addEventListener("click", function () {
+  alert("Opening Canvas in a new tab");
+  window.open("https://dekalb.instructure.com/");
+});
+document.body.appendChild(can);
+
+
+buzz.style.backgroundColor = "#4D6F9A";
+buzz.style.color = "#000000";
+onS.style.background = "#4D6F9A";
+onS.style.color = "#000000";
+ill.style.backgroundColor = "#4D6F9A";
+ill.style.color = "#000000";
+gmm.style.backgroundColor = "#4D6F9A";
+gmm.style.color = "#000000";
+cle.style.backgroundColor = "#4D6F9A";
+cle.style.color = "#000000";
+can.style.backgroundColor = "#4D6F9A";
+can.style.color = "#000000";
+document.body.style.backgroundColor = "#39657C";
+
+USEFUL STUFF
+Creating a js executor with one line, using github.
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://caiorss.github.io/commandpanel.js' })();
+
+Clever link, integrate into it
+Virginia
+The state for project
