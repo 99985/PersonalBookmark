@@ -1,6 +1,5 @@
-document.write("<center><h1>Welcome back...</h1><hr>");
-document.write("<p>What do you want to do today?</p>");
-document.write("a<center>")
+document.write("<center><h1>Welcome back...</h1>");
+document.write("<p>What do you want to do today?</p><hr>");
 let buzz = document.createElement("button");
 buzz.innerHTML = "Buzz";
 buzz.addEventListener("click", function () {
@@ -47,7 +46,6 @@ cle.addEventListener("click", function () {
   alert("Opening Clever in a new tab");
   window.open("https://tinyurl.com/y4rnv378");
 });
-
 document.body.appendChild(cle);
 
 let can = document.createElement("button");
@@ -57,6 +55,14 @@ can.addEventListener("click", function () {
   window.open("https://dekalb.instructure.com/");
 });
 document.body.appendChild(can);
+
+let bio = document.createElement("button");
+bio.innerHTML = "biology site";
+bio.addEventListener("click", function () {
+  alert("Opening dr a's site in a new tab");
+  window.open("https://sites.google.com/dekalbschoolsga.org/amarapubiology/home");
+});
+document.body.appendChild(bio);
 
 bu = "#4D6F9A";
 ba = "#000000";
