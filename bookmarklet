@@ -81,4 +81,6 @@ can.style.backgroundColor = bu;
 can.style.color = ba;
 dm.style.backgroundColor = bu;
 dm.style.color = ba;
+bio.style.backgroundColor = bu;
+bio.sytle.color = ba;
 document.body.style.backgroundColor = "#39657C";
