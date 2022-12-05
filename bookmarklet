@@ -1,4 +1,3 @@
-window.resizeTo()
 document.write("<center><h1>Welcome back...</h1><hr>");
 document.write("<p>What do you want to do today?</p>");
 let buzz = document.createElement("button");
@@ -50,17 +49,19 @@ can.addEventListener("click", function () {
 });
 document.body.appendChild(can);
 
+bu = "#4D6F9A";
+ba = "#000000";
 
-buzz.style.backgroundColor = "#4D6F9A";
-buzz.style.color = "#000000";
-onS.style.background = "#4D6F9A";
-onS.style.color = "#000000";
-ill.style.backgroundColor = "#4D6F9A";
-ill.style.color = "#000000";
-gmm.style.backgroundColor = "#4D6F9A";
-gmm.style.color = "#000000";
-cle.style.backgroundColor = "#4D6F9A";
-cle.style.color = "#000000";
-can.style.backgroundColor = "#4D6F9A";
-can.style.color = "#000000";
+buzz.style.backgroundColor = bu;
+buzz.style.color = ba;
+onS.style.background = bu;
+onS.style.color = ba;
+ill.style.backgroundColor = bu;
+ill.style.color = ba;
+gmm.style.backgroundColor = bu;
+gmm.style.color = ba;
+cle.style.backgroundColor = bu;
+cle.style.color = ba;
+can.style.backgroundColor = bu;
+can.style.color = ba;
 document.body.style.backgroundColor = "#39657C";
