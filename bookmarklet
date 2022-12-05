@@ -64,11 +64,3 @@ cle.style.color = "#000000";
 can.style.backgroundColor = "#4D6F9A";
 can.style.color = "#000000";
 document.body.style.backgroundColor = "#39657C";
-
-USEFUL STUFF
-Creating a js executor with one line, using github.
-javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://caiorss.github.io/commandpanel.js' })();
-
-Clever link, integrate into it
-Virginia
-The state for project
