@@ -9,7 +9,7 @@ let myCenter = document.createElement('center')
 myHeader.style.fontFamily = "Impact,Charcoal,sans-serif";
 myHeader.style.color = "#5c100d"
 myCenter.style.fontFamily = "Impact,Charcoal,sans-serif";
-document.getElementById("demo").style.fontSize = "large";
+myCenter.style.fontSize = "large";
 myCenter.style.color = "#5c100d"
 document.body.style.backgroundColor = "#132a32";
 /*giving the elements text*/
